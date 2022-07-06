@@ -20,6 +20,7 @@ const App = () => {
         console.log(error);
       });
   };
+  
 
   useEffect(() => {
     fetchAdvice();
