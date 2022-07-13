@@ -20,12 +20,13 @@ const App = () => {
         console.log(error);
       });
   };
-  
+
 
   useEffect(() => {
     fetchAdvice();
   }, []);
 
+  
   return (
     <Container>
       <Card>
