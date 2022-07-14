@@ -21,12 +21,10 @@ const App = () => {
       });
   };
 
-
   useEffect(() => {
     fetchAdvice();
   }, []);
 
-  
   return (
     <Container>
       <Card>
