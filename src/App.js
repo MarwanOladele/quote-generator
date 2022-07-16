@@ -2,7 +2,15 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import styled from "styled-components";
 
-const Container = styled.div``;
+const Container = styled.div`
+  height: 100vh;
+  background: linear-gradient(rgba(168, 166, 166, 1), rgba(168, 166, 166, 1)),
+    url(images/background.jpg) no-repeat center / cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+`;
 const Card = styled.div``;
 const Advice = styled.h1``;
 
