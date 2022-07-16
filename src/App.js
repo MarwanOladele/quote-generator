@@ -4,8 +4,9 @@ import styled from "styled-components";
 
 const Container = styled.div`
   height: 100vh;
-  background: linear-gradient(rgba(168, 166, 166, 1), rgba(168, 166, 166, 1)),
-    url(images/background.jpg) no-repeat center / cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://www.mmppicture.co.in/wp-content/uploads/2021/04/CB-Background-138-857x1080.jpg")
+      no-repeat center / cover;
   display: flex;
   justify-content: center;
   align-items: center;
