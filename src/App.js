@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://www.mmppicture.co.in/wp-content/uploads/2021/04/CB-Background-138-857x1080.jpg")
       no-repeat center / cover;
   display: flex;
@@ -12,7 +12,14 @@ const Container = styled.div`
   align-items: center;
   text-align: center;
 `;
-const Card = styled.div``;
+const Card = styled.div`
+  background-color: whitesmoke;
+  width: 40%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
 const Advice = styled.h1``;
 
 const App = () => {
