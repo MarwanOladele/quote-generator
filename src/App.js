@@ -4,21 +4,28 @@ import styled from "styled-components";
 
 const Container = styled.div`
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("https://www.mmppicture.co.in/wp-content/uploads/2021/04/CB-Background-138-857x1080.jpg")
       no-repeat center / cover;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+//   padding: 5%;
 `;
 const Card = styled.div`
   background-color: whitesmoke;
-  width: 40%;
-  height: 20%;
+  width: 40vw;
+  height: 35vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  border-radius: 25px;
+  padding: 2%;
+  box-shadow: 48px 19px 123px 48px rgba(36, 26, 26, 0.78);
+  -webkit-box-shadow: 48px 19px 123px 48px rgba(36, 26, 26, 0.78);
+  -moz-box-shadow: 48px 19px 123px 48px rgba(36, 26, 26, 0.78);
 `;
 const Advice = styled.h1``;
 
