@@ -11,7 +11,6 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
-//   padding: 5%;
 `;
 const Card = styled.div`
   background-color: whitesmoke;
