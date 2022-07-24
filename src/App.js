@@ -26,7 +26,15 @@ const Card = styled.div`
   -webkit-box-shadow: 48px 19px 123px 48px rgba(36, 26, 26, 0.78);
   -moz-box-shadow: 48px 19px 123px 48px rgba(36, 26, 26, 0.78);
 `;
-const Advice = styled.h1``;
+const Advice = styled.h1`
+  display: flex;
+  align-items: center;
+  height: 580px;
+`;
+
+const Button = styled.button``
+const Span = styled.span``
+
 
 const App = () => {
   const [quote, setQuote] = useState("");
@@ -51,6 +59,9 @@ const App = () => {
     <Container>
       <Card>
         <Advice>{quote}</Advice>
+        <Button>
+            <Span>Give Me Advise</Span>
+        </Button>
       </Card>
     </Container>
   );
