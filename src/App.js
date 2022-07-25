@@ -15,7 +15,7 @@ const Container = styled.div`
 const Card = styled.div`
   background-color: whitesmoke;
   width: 40vw;
-  height: 35vh;
+  height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,9 +32,17 @@ const Advice = styled.h1`
   height: 580px;
 `;
 
-const Button = styled.button``
-const Span = styled.span``
-
+const Button = styled.button`
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+  border: 1px solid rgba(22, 76, 167, 0.6);
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  background-color: white;
+  font-size: 16px;
+`;
 
 const App = () => {
   const [quote, setQuote] = useState("");
@@ -59,9 +67,7 @@ const App = () => {
     <Container>
       <Card>
         <Advice>{quote}</Advice>
-        <Button>
-            <Span>Give Me Advise</Span>
-        </Button>
+        <Button>Give Me Advise</Button>
       </Card>
     </Container>
   );
