@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import styled from "styled-components";
+import { mobile } from "./responsive";
 
 const Container = styled.div`
   height: 100vh;
@@ -25,6 +26,10 @@ const Card = styled.div`
   box-shadow: 48px 19px 123px 48px rgba(36, 26, 26, 0.78);
   -webkit-box-shadow: 48px 19px 123px 48px rgba(36, 26, 26, 0.78);
   -moz-box-shadow: 48px 19px 123px 48px rgba(36, 26, 26, 0.78);
+  ${mobile({
+    width: "80%",
+    height: "30%",
+  })}
 `;
 const Advice = styled.h1`
   display: flex;
