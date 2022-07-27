@@ -35,6 +35,9 @@ const Advice = styled.h1`
   display: flex;
   align-items: center;
   height: 580px;
+  ${mobile({
+    fontSize: "16px",
+  })}
 `;
 
 const Button = styled.button`
@@ -47,6 +50,9 @@ const Button = styled.button`
   padding: 10px 30px;
   background-color: white;
   font-size: 16px;
+  ${mobile({
+    fontSize: "14px",
+  })}
 `;
 
 const App = () => {
@@ -72,7 +78,7 @@ const App = () => {
     <Container>
       <Card>
         <Advice>{quote}</Advice>
-        <Button onClick={fetchAdvice}>Give Me Advise</Button>
+        <Button onClick={fetchAdvice}>Give Me an Advise</Button>
       </Card>
     </Container>
   );
