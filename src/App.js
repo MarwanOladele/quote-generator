@@ -72,7 +72,7 @@ const App = () => {
     <Container>
       <Card>
         <Advice>{quote}</Advice>
-        <Button>Give Me Advise</Button>
+        <Button onClick={fetchAdvice}>Give Me Advise</Button>
       </Card>
     </Container>
   );
