@@ -5,7 +5,7 @@ import { mobile } from "./responsive";
 
 const Container = styled.div`
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("https://www.mmppicture.co.in/wp-content/uploads/2021/04/CB-Background-138-857x1080.jpg")
       no-repeat center / cover;
   display: flex;
@@ -29,6 +29,7 @@ const Card = styled.div`
   ${mobile({
     width: "80%",
     height: "30%",
+    paddingBottom: "5%",
   })}
 `;
 const Advice = styled.h1`
@@ -52,6 +53,7 @@ const Button = styled.button`
   font-size: 16px;
   ${mobile({
     fontSize: "14px",
+    padding: "7px 10px",
   })}
 `;
 
